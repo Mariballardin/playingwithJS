@@ -21,7 +21,7 @@ else {
 let soma = Number(firstNumber) + Number(secondNumber) 
 let sub = Number(firstNumber) - Number(secondNumber) 
 let multi = Number(firstNumber) * Number(secondNumber)
-let div = Number(firstNumber) / Number(secondNumber)
+let div = (Number(firstNumber) / Number(secondNumber)).toFixed(2)
 let rest = Number(firstNumber) % Number(secondNumber)
 
 alert("A soma dos números é: " + soma )
